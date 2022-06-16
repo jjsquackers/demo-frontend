@@ -1,6 +1,8 @@
-# Getting Started with Create React App - linked with **jjsquackers/spring-react-junit** project
+# Getting Started with Create React App - linked with [**jjsquackers/spring-react-junit**](https://github.com/jjsquackers/springboot-react-junit) project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was to exhibit my backend and frontend skills.
+FrontEnd: https://github.com/jjsquackers/demo-frontend
+BackEnd: https://github.com/jjsquackers/springboot-react-junit
 
 ## Available Scripts
 
