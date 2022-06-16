@@ -21,7 +21,7 @@ const MyAppBar = (props: MyAppBar): ReactElement => {
           spacing="10px"
           sx={{ margin: "10px" }}
         >
-          <Typography  sx={{ margin: "10px" , color: "white" }}>
+          <Typography sx={{ margin: "10px", color: "white" }}>
             FULLSTACK APP (Spring Boot + React)
           </Typography>
           <Button
@@ -38,7 +38,7 @@ const MyAppBar = (props: MyAppBar): ReactElement => {
             sx={{ color: "white" }}
             variant="text"
             onClick={() => {
-              navigate("/orders");
+              navigate("/add-order");
             }}
           >
             Add Order
@@ -48,10 +48,29 @@ const MyAppBar = (props: MyAppBar): ReactElement => {
             sx={{ color: "white" }}
             variant="text"
             onClick={() => {
-              navigate("/customers");
+              navigate("/add-customer");
             }}
           >
             Add Customer
+          </Button>
+
+          <Button
+            sx={{ color: "white" }}
+            variant="text"
+            onClick={() => {
+              navigate("/orders");
+            }}
+          >
+            Orders
+          </Button>
+          <Button
+            sx={{ color: "white" }}
+            variant="text"
+            onClick={() => {
+              navigate("/customers");
+            }}
+          >
+            Customers
           </Button>
           <Button
             sx={{ color: "white" }}

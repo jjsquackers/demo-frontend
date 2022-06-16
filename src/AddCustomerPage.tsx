@@ -18,20 +18,27 @@ function AddCustomerPage() {
             <Stack sx={{ gap: 2 }}>
               <TextField
                 id="outlined-basic"
-                label="Order No"
-                variant="outlined"
-              />
-              <TextField id="outlined-basic" label="Date" variant="outlined" />
-              <TextField
-                id="outlined-basic"
-                label="Tracking No"
-                variant="outlined"
-              />
-              <TextField
-                id="outlined-basic"
                 label="Customer ID"
                 variant="outlined"
               />
+              <TextField
+                id="outlined-basic"
+                label="First Name"
+                variant="outlined"
+              />
+              <TextField
+                id="outlined-basic"
+                label="Last Name"
+                variant="outlined"
+              />
+              <TextField
+                id="outlined-basic"
+                label="Address"
+                variant="outlined"
+              />
+              <TextField id="outlined-basic" label="City" variant="outlined" />
+              <TextField id="outlined-basic" label="State" variant="outlined" />
+              <TextField id="outlined-basic" label="State" variant="outlined" />
               <Stack
                 direction={"row"}
                 alignItems="center"
